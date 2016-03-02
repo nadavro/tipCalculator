@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                     double billNumbered = Double.parseDouble(st);
                     if(checkBox.isChecked()){
                         //tvOut.setText("checkbox is checked");
-
+                        int a = 1;
                         int rounded = (int) Math.ceil((billNumbered*12)/100);
                         tvOut.setText(rounded+"$");
 
