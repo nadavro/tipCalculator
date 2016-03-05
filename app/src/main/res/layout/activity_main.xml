@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calculate"
-        android:id="@+id/button"
+        android:id="@+id/btnCalculate"
         android:nestedScrollingEnabled="false"
         android:onClick="click"
         android:layout_centerVertical="true"
@@ -32,8 +32,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="round to nearest dollar"
-        android:id="@+id/checkBox1"
-        android:layout_above="@+id/button"
+        android:id="@+id/chkRound"
+        android:layout_above="@+id/btnCalculate"
         android:layout_centerHorizontal="true" />
 
     <EditText
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
-        android:id="@+id/editText1"
+        android:id="@+id/edtBillAmount"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
         android:inputType="number|none"
@@ -50,7 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New Text"
-        android:id="@+id/textView2"
+        android:id="@+id/txtTipResult"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="69dp" />
